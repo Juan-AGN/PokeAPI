@@ -1,0 +1,32 @@
+/* ESTILOS DE TU COMPONENTE */
+.title {
+    text-align: center;
+}
+
+.titlebackground {
+    display: flex; 
+    background-image: url(../src/img/pokeball.png);
+    height: 300px;
+    width: 300px;
+    background-size: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.basic_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.bigdiv {
+    display: flex;
+}
+
+.input_on_div {
+    width: auto;
+}
