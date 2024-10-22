@@ -13,9 +13,6 @@ root.render(
   <GoogleOAuthProvider clientId={CLIENT_ID}>
     <Title />
     <App />
-    <p style="text-align: center; color: white;">
-      MADE BY: Juan Antonio García Narváez (juan-ant)
-    </p>
     </GoogleOAuthProvider>
 );
 
