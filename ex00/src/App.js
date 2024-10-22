@@ -62,8 +62,6 @@ function App() {
       }
       </>
       )}
-    <br></br>
-    <p text-align="center">MADE BY: Juan Antonio García Narváez (juan-ant)</p>
     </div>
   );
 }
