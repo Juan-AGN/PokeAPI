@@ -9,10 +9,6 @@ function App() {
       <h1 class="title">PokeGenerator</h1>
     </div>
     <br></br>
-    <p>
-    MADE BY: Juan Antonio García Narváez (juan-ant)
-    </p>
-    <br></br>
     </div>
   );
 }
