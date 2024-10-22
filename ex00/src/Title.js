@@ -7,11 +7,11 @@ function App() {
     <br></br>
     <div class="titlebackground">
       <h1 class="title">PokeGenerator</h1>
-      <br></br>
-      <p>
-      MADE BY: Juan Antonio García Narváez (juan-ant)
-      </p>
     </div>
+    <br></br>
+    <p>
+    MADE BY: Juan Antonio García Narváez (juan-ant)
+    </p>
     <br></br>
     </div>
   );
