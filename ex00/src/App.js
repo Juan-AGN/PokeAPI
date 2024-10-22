@@ -31,10 +31,12 @@ function App() {
   return (
     <div className="bigdiv">
       {!userToken && (
+        <div className="basic_box">
         <GoogleLogin
           onSuccess={handleLoginSuccess}
           onError={handleLoginFailure}
         />
+        </div>
       )}
       {userToken && (
         <>
@@ -53,9 +55,11 @@ function App() {
         </div>
       </div>
       <br></br>
+      {response != '' &&
       <div className="inside_box">
         {response && <p>{response}</p>} 
       </div>
+      }
       </>
       )}
     </div>
