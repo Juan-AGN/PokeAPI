@@ -15,7 +15,6 @@
     margin-right: auto;
 }
 
-
 .basic_box {
     display: flex;
     align-items: center;
@@ -70,6 +69,12 @@ button {
     opacity: 0.8;
     background-color: blanchedalmond;
 }
+
+.credits {
+    text-align: center; 
+    color: white;
+}
+
 @media (max-width:700px){
     .bigdiv {
         display: flow;

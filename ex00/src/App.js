@@ -29,6 +29,7 @@ function App() {
   };
 
   return (
+    <div display="flow">
     <div className="bigdiv">
       {!userToken && (
         <div className="basic_box">
@@ -62,6 +63,12 @@ function App() {
       }
       </>
       )}
+    </div>
+    <br></br>
+    <p class="credits">
+    MADE BY: Juan Antonio García Narváez (juan-ant)
+    </p>
+    <br></br>
     </div>
   );
 }
